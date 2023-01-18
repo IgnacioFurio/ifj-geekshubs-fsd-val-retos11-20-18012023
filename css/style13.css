@@ -1,0 +1,29 @@
+table{
+    border: 2px solid black;
+    border: outset;
+    width: 100%;
+    font-weight: bold;
+
+}
+th{
+    border: 1px solid black;
+    border: inset 2px;
+    background-color: limegreen;
+}
+td{
+        border: 1px solid black;
+        height: 30px;
+        text-align: center;
+}
+#celda-2{
+    text-align: left;
+    background-color: rgb(116, 234, 250);
+}
+#celda-6{
+    text-align: right;
+    background-color: rgb(255, 204, 204);
+    vertical-align: bottom;
+}
+.cell-red{
+    color: rgb(253, 51, 51);
+}
