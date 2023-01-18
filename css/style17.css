@@ -1,0 +1,16 @@
+body{
+    display: flex;
+}
+table{
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../assets/ac.jpg);
+}
+tr{
+    height: 100px;
+}
+td{
+    width: 100px;
+    border: black 1px solid;
+}
