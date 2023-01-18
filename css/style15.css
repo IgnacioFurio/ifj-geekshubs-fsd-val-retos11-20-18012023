@@ -1,0 +1,13 @@
+body{
+    padding-left: 70px;
+}
+.pais{
+    list-style-type: decimal;
+}
+.spn{
+    list-style-type: lower-latin;
+}
+.eeuu{
+    list-style: upper-roman;
+    list-style-position: inside;
+}
