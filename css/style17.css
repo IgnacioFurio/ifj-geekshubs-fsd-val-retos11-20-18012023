@@ -1,16 +1,96 @@
 body{
     display: flex;
+    text-align: center;
+    vertical-align: top;
+    margin: 0;
 }
 table{
     width: 1000px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 800px;
     background-image: url(../assets/ac.jpg);
+    background-size: auto;
+    border-spacing: 35px;
 }
 tr{
-    height: 100px;
+    height: 200px;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    vertical-align: top;
 }
 td{
-    width: 100px;
-    border: black 1px solid;
+    border: 1px rgb(0, 0, 0) solid;
+    padding-top: 15px;
+    border-collapse: 15px separate;
+}
+#a{
+    background-image: url(../assets/back_mantel.jpg);
+}
+#b{
+    background-image: url(../assets/back_mantel.jpg);
+    background-size: ;
+}
+#c{
+    background-image: url(../assets/back_mantel.jpg);
+    background-size: cover;
+}
+#d{
+    background-image: url(../assets/back_mantel.jpg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#e{
+    background-image: url(../assets/dh.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#f{    background-image: url(../assets/dh.jpg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: white;}
+#g{
+    background-image: url(../assets/dh_2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#h{
+    background-image: url(../assets/dh_3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#i{
+    background-image: linear-gradient(
+        to right,
+        yellow,
+        green
+        );
+}
+#j{
+    background-image: linear-gradient(
+        to top,
+        white 0%,
+        red 20%,
+        white 100%
+        );
+}
+#k{
+    background-image: linear-gradient(
+        to top,
+        green,
+        white
+        );
+}
+#l{
+    background-image: linear-gradient(
+        to top,
+        green,
+        rgba(255, 255, 255, 0)
+        );
 }
