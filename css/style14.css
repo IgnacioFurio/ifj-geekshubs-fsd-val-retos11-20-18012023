@@ -2,10 +2,39 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
+}
+table{
+    border: outset 3px rgb(204, 204, 204);
+    font-size: small;
+    width: 50vw;
+}
+th{
+    background-color: white;
+    border: inset 1px rgb(204, 204, 204);
+    margin: 1px;
+}
+tr{
+    border: inset 1px black;
+    margin: 1px;
+}
+td{
+    border: inset 1px rgb(204, 204, 204);
+    background-color: rgb(250, 250, 179);
+    text-align: center;
+    margin: 1px;
 }
 #fondo{
     background-image: url(../assets/reto\ 14.jpeg);
+    width: 70vw;
+    height: 95vh;
     display: flex;
+    background-size:cover;
     justify-content: center;
     align-items: center;
+}
+#table{
+    float: none;
+    display: flex;
+    justify-content: center;
 }
