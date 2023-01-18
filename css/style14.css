@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fondo{
+    background-image: url(../assets/reto\ 14.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
