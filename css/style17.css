@@ -1,34 +1,21 @@
 body{
-    display: flex;
-    text-align: center;
-    vertical-align: top;
-    margin: 0;
+    background-image: url(../assets/ac.jpg)
 }
-table{
-    width: 1000px;
-    height: 800px;
-    background-image: url(../assets/ac.jpg);
-    background-size: auto;
-    border-spacing: 35px;
-}
-tr{
-    height: 200px;
+div{
     width: 200px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    vertical-align: top;
-}
-td{
-    border: 1px rgb(0, 0, 0) solid;
-    padding-top: 15px;
-    border-collapse: 15px separate;
+    height: 200px;
+    border: solid black 1px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
 }
 #a{
     background-image: url(../assets/back_mantel.jpg);
 }
 #b{
     background-image: url(../assets/back_mantel.jpg);
-    background-size: ;
+    background-clip:content-box;
 }
 #c{
     background-image: url(../assets/back_mantel.jpg);
@@ -37,7 +24,7 @@ td{
 #d{
     background-image: url(../assets/back_mantel.jpg);
     background-position: center;
-    background-size: 80%;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-color: white;
 }
@@ -75,9 +62,9 @@ td{
 #j{
     background-image: linear-gradient(
         to top,
-        white 0%,
+        rgb(253, 173, 173) 0%,
         red 20%,
-        white 100%
+        rgb(249, 169, 169) 100%
         );
 }
 #k{
